@@ -1,0 +1,50 @@
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F5FF;
+  background: url('C:\Users\mirla\Desktop\Students\5. DocLab - Adelina\frontend\src\Assets\Error.PNG') no-repeat center center;
+  background-size: 750px 570px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 50px;
+}
+
+.error-circle {
+  text-align: center;
+  color: #FFFFFF; 
+  max-width: 600px; 
+}
+
+.error-code {
+  font-size: 7em;
+  font-weight: bold;
+  color: #512D6D; 
+}
+
+.error-text {
+  font-size: 1.5em;
+  margin-top: -20px;
+  font-weight: bold;
+  color: #512D6D; 
+}
+
+.error-message {
+  margin-top: 20px;
+  line-height: 1.6;
+  font-size: 1em;
+  width: 500px;
+  color: #512D6D; 
+}
+
+.error-links a {
+  text-decoration: none;
+  color: #9E9E9E;
+  font-size: 1em;
+  margin: 0 10px;
+}
+
+.error-links a:hover {
+  color: #6200EA;
+}
+

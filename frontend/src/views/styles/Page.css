@@ -1,0 +1,180 @@
+.abut-container {
+  width: 100%;
+  height: 100px;
+  
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 140px
+}
+
+.profile-card {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 270px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.name-section h5 {
+  margin: 10px 0;
+}
+
+.position {
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+.speech-bubble {
+  position: absolute;
+  bottom: 0; 
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 200px; 
+  height: 270px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.speech-bubble-soledat {
+  right: 250px; 
+}
+
+.speech-bubble-marina {
+  left: 240px; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 96vh;
+  background-color: #555252;
+  color: #fff;
+}
+
+.home-title {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.home-description {
+  font-size: 1.2em;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 2em;
+}
+
+.home-university {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.home-purpose {
+  animation: fadeIn 5s ease-in-out infinite alternate;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 96vh;
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.error-code {
+  font-size: 6em;
+  font-weight: bold;
+}
+
+.error-message {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.error-description {
+  font-size: 1em;
+  color: #666;
+}
+
+.todo-container{
+  width: 100%;
+  min-height: 520px;
+  background-color: #adafcc;
+  padding-bottom:  10px;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service {
+  margin: 20px;
+  display: inline-block;
+}
+
+.service img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover; 
+}
+
+button {
+  background-color: #7c4dff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6a40c9;
+}
+
+
+.teamDL-container {
+  width: 1000px;
+  height: 700px;
+}
